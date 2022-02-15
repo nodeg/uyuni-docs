@@ -159,17 +159,17 @@ targets: #Other makefile target not strictly related to book. These targets will
     pre_lang_prerequisite: configure-uyuni
 asciidoc:
   - attribute: saltversion
-    value: 3002
+    value: 3004
   - attribute: sles-version
     value: 15
   - attribute:  sp-version
-    value: SP3 #use for normal text
+    value: SP4 #use for normal text
   - attribute: sp-vert
-    value: sp3 #use for terminal block
+    value: sp4 #use for terminal block
   - attribute: sp-version-l
-    value: sp3
+    value: sp4
   - attribute: smrproductnumber
-    value: 4.2
+    value: 4.3
   - attribute: opensuse-version
     value: 15.3
   - attribute: linkattrs
